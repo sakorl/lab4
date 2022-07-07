@@ -1,14 +1,9 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "0d2e5f9810645bc1683506db3fa9bde8",
     "packages": [
         {
             "name": "envms/fluentpdo",
             "version": "v2.2.4",
+            "version_normalized": "2.2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/envms/fluentpdo.git",
@@ -28,7 +23,9 @@
                 "envms/fluent-test": "^1.0",
                 "phpunit/phpunit": "^8.0"
             },
+            "time": "2022-01-27T21:49:44+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Envms\\FluentPDO\\": "src/"
@@ -62,16 +59,9 @@
                 "issues": "https://github.com/envms/fluentpdo/issues",
                 "source": "https://github.com/envms/fluentpdo/tree/v2.2.4"
             },
-            "time": "2022-01-27T21:49:44+00:00"
+            "install-path": "../envms/fluentpdo"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "dev": true,
+    "dev-package-names": []
 }
