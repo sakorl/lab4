@@ -1,0 +1,10 @@
+{
+    "name": "group4/lab4",
+    "description": "this is for lab4",
+    "authors": [
+        {
+            "name": "sakorl"
+        }
+    ],
+    "require": {}
+}
