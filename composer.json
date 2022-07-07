@@ -4,5 +4,5 @@
     "authors": [{
         "name": "sakorl"
     }],
-    "require": { "envms/fluentpdo": "^2.2.0" }
+    "require": {}
 }
