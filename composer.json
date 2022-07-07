@@ -1,0 +1,8 @@
+{
+    "name": "group4/lab4",
+    "description": "This is for lab4",
+    "authors": [{
+        "name": "sakorl"
+    }],
+    "require": { "envms/fluentpdo": "^2.2.0" }
+}
