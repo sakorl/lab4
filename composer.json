@@ -6,5 +6,7 @@
             "name": "sakorl"
         }
     ],
-    "require": {}
+    "require": {
+        "envms/fluentpdo": "^2.2.0"
+    }
 }
