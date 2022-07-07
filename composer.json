@@ -1,8 +1,20 @@
 {
     "name": "group4/lab4",
     "description": "this is for lab4",
+<<<<<<< HEAD
     "authors": [{
         "name": "sakorl"
     }],
     "require": {}
 }
+=======
+    "authors": [
+        {
+            "name": "sakorl"
+        }
+    ],
+    "require": {
+        "envms/fluentpdo": "^2.2.0"
+    }
+}
+>>>>>>> 4c6dc86c7df9b8eae8648dcd46b74e009703d0cd
