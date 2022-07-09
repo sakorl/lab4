@@ -11,8 +11,6 @@ Our member
 
 Our tasks
 1.sakorl : responsible for index.php, config and create
----------------------------------------------------
 2.Muny : do the part of update and read
---------------------------------------------------
 3.Sreymouch : response to delete and error message
 ---------------------------------------------------
