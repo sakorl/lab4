@@ -9,6 +9,13 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
+        /* *{
+            color: white;
+        }
+        body{
+            background-color:#3a5a40;
+            color: white;
+        } */
         .wrapper{
             width: 600px;
             margin: 0 auto;

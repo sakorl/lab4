@@ -9,7 +9,7 @@ $name_err = $amount_err = $price_err = "";
 // Processing form data when form is submitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Validate name
-    $input_name = trim($_POST["name"]);
+    $input_name = ($_POST["name"]);
     if(empty($input_name)){
         $name_err = "Please enter a name.";
     } elseif(!filter_var($input_name, FILTER_VALIDATE_REGEXP, array("options"=>array("regexp"=>"/^[a-zA-Z\s]+$/")))){
@@ -107,7 +107,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             <input type="text" name="price" class="form-control <?php echo (!empty($price_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $price; ?>">
                             <span class="invalid-feedback"><?php echo $price_err;?></span>
                         </div>
-                        <input type="submit" class="btn btn-primary" value="Submit">
+                        <input type="submit" class="btn btn-primary" value="Add">
                         <a href="index.php" class="btn btn-secondary ml-2">Cancel</a>
                     </form>
                 </div>
