@@ -11,9 +11,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Validate name
     $input_name = ($_POST["name"]);
     if(empty($input_name)){
-        $name_err = "Please enter a name.";
+        $name_err = "Please enter your name.";
     } elseif(!filter_var($input_name, FILTER_VALIDATE_REGEXP, array("options"=>array("regexp"=>"/^[a-zA-Z\s]+$/")))){
-        $name_err = "Please enter a valid name.";
+        $name_err = "Please enter the valid name.";
     } else{
         $name = $input_name;
     }
@@ -21,7 +21,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Validate amount
     $input_amount = trim($_POST["amount"]);
     if(empty($input_amount)){
-        $amount_err = "Please enter an amount.";     
+        $amount_err = "Please enter the amount.";     
     } else{
         $amount = $input_amount;
     }
@@ -29,10 +29,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Validate price
     $input_price = trim($_POST["price"]);
     if(empty($input_price)){
-        $price_err = "Please enter the price amount.";     
-    } elseif(!ctype_digit($input_price)){
-        $price_err = "Please enter a positive integer value.";
-    } else{
+        $price_err = "Please enter the price .";     
+    }  else{
         $price = $input_price;
     }
     

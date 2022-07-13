@@ -66,18 +66,18 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="mt-5 mb-3">View Record</h1>
+                    <h1 class="mt-5 mb-3 text-primary">View Record</h1>
                     <div class="form-group">
-                        <label>Name</label>
-                        <p><b><?php echo $row["name"]; ?></b></p>
+                        <label class="text-success">Name :</label>
+                        <p><h3><b><?php echo $row["name"]; ?></b></h3></p>
                     </div>
                     <div class="form-group">
-                        <label>amount</label>
-                        <p><b><?php echo $row["amount"]; ?></b></p>
+                        <label class="text-success">Amount :</label>
+                        <p><h3><b><?php echo $row["amount"]; ?></b></h3></p>
                     </div>
                     <div class="form-group">
-                        <label>price</label>
-                        <p><b><?php echo $row["price"]; ?></b></p>
+                        <label class="text-success">Price :  </label>
+                        <p><h3><b><?php echo $row["price"]; ?></b></h3></p>
                     </div>
                     <p><a href="index.php" class="btn btn-primary">Back</a></p>
                 </div>
